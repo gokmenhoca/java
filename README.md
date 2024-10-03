@@ -1,6 +1,6 @@
-# Java Samples used in OOP Lessons
+# Java samples used in OOP Lessons
 
-The sample Java sources are for the attendees of Faculty OOP Lessons.
+The sample Java sources are for the attendees of faculty OOP Lessons.
 
 ## Target Audiance
 
