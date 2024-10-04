@@ -12,8 +12,8 @@ public class Comparison02 {
         }
         // D : DOĞRU         Y: YANLIŞ
         //         (((a <= 5) && (b > 10)) && ((a < 1) || (b >= 9)))
-        // 1.adım  ((    D    &&    Y    ) && ((  D    ||    D    ))
-        // 2. adım (           Y           &&          D           )
+        // 1.adım  ((    D    &&    Y   )) && ((  D    ||    D    ))
+        // 2. adım (           Y         ) && (        D           )
         // 3. adım (                       Y                       )
 
         if ((a <= 5) && (b > 10)  && (a < 1) || (b >= 9)) {
