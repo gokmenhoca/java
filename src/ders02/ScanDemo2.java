@@ -6,11 +6,12 @@ public class ScanDemo2 {
     public static void main(String[] args) {
         Scanner kb = new Scanner(System.in);
         System.out.print("Adınız? : ");
-
-        String uName = "Merhaba, " + kb.nextLine();
+        String uName = kb.nextLine();
         kb.close();
 
         Scanner str = new Scanner(uName);
+        System.out.print("Merhaba, ");
+
         do {
             System.out.print(str.next());
 

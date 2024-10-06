@@ -1,19 +1,29 @@
 package ders02;
 
 public class Vakit {
-    public int saat;   // = 0
-    public int dakika; // = 0
-    public int saniye; // = 0
+    public int saat;
+    public int dakika;
+    public int saniye;
 
     public void ilerlet() {
         saniye++;
-        // TODO : Saniye bir artırılınca saatin yeni değerini hesaplayacak
-        // şekilde metodu tamamlayınız.
+
+        if (saniye == 60) {
+            saniye = 0;
+            dakika++;
+
+            if (dakika == 60) {
+                dakika = 0;
+                saat++;
+
+                if (saat == 24) {
+                    saat = 0;
+                }
+            }
+        }
     }
 
     public void vakitYaz() {
-        System.out.printf(" Zaman : %d:%d:%d\n", saat, dakika, saniye);
-        // TODO : Ekran çıktısını örnekte görüldüğü şekilde yapılandıracak
-        // printf ifadesini düzenleyiniz. ÖRNEK ÇIKTI -> Zaman : 03:09:15
+        System.out.printf("Zaman : %0,2d:%0,2d:%0,2d\n", saat, dakika, saniye);
     }
 }
