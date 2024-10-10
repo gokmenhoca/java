@@ -1,3 +1,5 @@
+package ders03;
+
 public class FieldTest {
     static int aStatic;       // Class Variable
     int        aDynamic = 5;  // Instance Variable
