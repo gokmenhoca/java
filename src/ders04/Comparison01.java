@@ -1,4 +1,4 @@
-package ders03;
+package ders04;
 
 public class Comparison01 {
     public static void main(String[] args) {
