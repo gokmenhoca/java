@@ -2,16 +2,14 @@
 
 The sample Java sources are for the attendees of faculty OOP Lessons.
 
-## Target Audiance
+>  [!IMPORTANT]
+**The codes given here are for students _who are new to Java programming language and have no prior knowledge of programming in Java_.**
 
-*__The codes given here are for students who are new to Java programming language and have no prior knowledge of programming in Java.__*
-
-## Pay Attention
-
+> [!WARNING]
 All are initiatory samples only and may have to be edited because none of them are bug-free.
-
 All of these samples are designed to explain only one or a few topic(s). So it doesn't have to be logical or valid.
 
+> [!CAUTION]
 Some samples are *__for invalid usage illustrations__*.
 
 ## Contents
