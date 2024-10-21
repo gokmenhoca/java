@@ -2,7 +2,7 @@
 
 The sample Java sources are for the attendees of faculty OOP Lessons.
 
->  [!IMPORTANT]
+> [!IMPORTANT]
 **The codes given here are for students _who are new to Java programming language and have no prior knowledge of programming in Java_.**
 
 > [!WARNING]
