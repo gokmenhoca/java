@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="odev" size="1409,624" id="ders07.odev" metadata="uml2-1.0" initialized="true" tag="1000" key="32303037303533312D31303030204F4F502F476F6B6D656E">
+  <children xsi:type="editmodel:ClassEditModel" name="ArabaApp" location="585,82" size="138,65" id="ders07.odev/ArabaApp" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="115,16">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="ders07.odev/ArabaApp#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Araba3" location="531,229" size="222,129" id="ders07.odev/Araba3" runTimeClassModel="setRenk(Ljava.lang.String;),renk,Araba3(Ljava.lang.String;Ljava.lang.String;),getRenk(),showInfo()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="62,16">
+      <children xsi:type="editmodel:AttributeEditModel" name="renk" id="ders07.odev/Araba3#renk"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="199,64">
+      <children xsi:type="editmodel:MethodEditModel" name="Araba3" id="ders07.odev/Araba3#Araba3(Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRenk" id="ders07.odev/Araba3#getRenk()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setRenk" id="ders07.odev/Araba3#setRenk(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="showInfo" id="ders07.odev/Araba3#showInfo()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="ders07.odev/Araba&lt;-ders07.odev/Araba3" source="//@children.1" target="//@children.4/@sourceConnections.0" targetEnd="//@children.1/@sourceConnections.0/@children.1" sourceEnd="//@children.1/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="111,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.0" name="Araba2" location="290,229" size="211,129" id="ders07.odev/Araba2" runTimeClassModel="motor,getMotor(),Araba2(Ljava.lang.String;I),setMotor(I),showInfo()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="51,16">
+      <children xsi:type="editmodel:AttributeEditModel" name="motor" id="ders07.odev/Araba2#motor"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="188,64">
+      <children xsi:type="editmodel:MethodEditModel" name="Araba2" id="ders07.odev/Araba2#Araba2(Ljava.lang.String;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMotor" id="ders07.odev/Araba2#getMotor()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setMotor" id="ders07.odev/Araba2#setMotor(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="showInfo" id="ders07.odev/Araba2#showInfo()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="ders07.odev/Araba&lt;-ders07.odev/Araba2" source="//@children.2" target="//@children.4/@sourceConnections.0" targetEnd="//@children.2/@sourceConnections.0/@children.1" sourceEnd="//@children.2/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="105,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Araba2s" location="241,408" size="309,129" id="ders07.odev/Araba2s" runTimeClassModel="Araba2s(Ljava.lang.String;ILjava.lang.String;),setSegment(Ljava.lang.String;),segment,getSegment(),showInfo()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="82,16">
+      <children xsi:type="editmodel:AttributeEditModel" name="segment" id="ders07.odev/Araba2s#segment"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="286,64">
+      <children xsi:type="editmodel:MethodEditModel" name="Araba2s" id="ders07.odev/Araba2s#Araba2s(Ljava.lang.String;ILjava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSegment" id="ders07.odev/Araba2s#getSegment()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setSegment" id="ders07.odev/Araba2s#setSegment(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="showInfo" id="ders07.odev/Araba2s#showInfo()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="ders07.odev/Araba2&lt;-ders07.odev/Araba2s" source="//@children.3" target="//@children.2" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="154,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="105,129"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Araba1" location="50,229" size="210,129" id="ders07.odev/Araba1" runTimeClassModel="Araba1(Ljava.lang.String;I),yolcu,setYolcu(I),getYolcu(),showInfo()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="50,16">
+      <children xsi:type="editmodel:AttributeEditModel" name="yolcu" id="ders07.odev/Araba1#yolcu"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="187,64">
+      <children xsi:type="editmodel:MethodEditModel" name="Araba1" id="ders07.odev/Araba1#Araba1(Ljava.lang.String;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getYolcu" id="ders07.odev/Araba1#getYolcu()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setYolcu" id="ders07.odev/Araba1#setYolcu(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="showInfo" id="ders07.odev/Araba1#showInfo()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.2/@sourceConnections.0 //@children.1/@sourceConnections.0" autoLocated="true" id="ders07.odev/Araba&lt;-ders07.odev/Araba1" source="//@children.4" target="//@children.5" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="105,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="80,129" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.0" name="Araba" location="317,50" size="161,129" id="ders07.odev/Araba" runTimeClassModel="marka,Araba(Ljava.lang.String;),setMarka(Ljava.lang.String;),getMarka(),showInfo()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="70,16">
+      <children xsi:type="editmodel:AttributeEditModel" name="marka" id="ders07.odev/Araba#marka"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="138,64">
+      <children xsi:type="editmodel:MethodEditModel" name="Araba" id="ders07.odev/Araba#Araba(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMarka" id="ders07.odev/Araba#getMarka()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setMarka" id="ders07.odev/Araba#setMarka(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="showInfo" id="ders07.odev/Araba#showInfo()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=1;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showConnectionHandles="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" showMethodsParameterKinds="true" attributeSorter="Natural" methodSorter="Natural" shortPackageNameFormat="true" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
