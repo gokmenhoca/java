@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.ListIterator;
 
 /*****************************************************************
- *  ATTENTION: the following methods are valid in ArrayList Class
+ *  ATTENTION: The following methods are valid in ArrayList Class
  *  since Java 21;
  *  addFirst(), addLast(), 
  *  getFirst(), getLast(),
