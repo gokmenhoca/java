@@ -1,4 +1,4 @@
-package ders12.collections;
+package ders13.collections;
 
 import java.util.ArrayList;
 import java.util.Iterator;
