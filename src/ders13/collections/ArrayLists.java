@@ -1,9 +1,16 @@
-package ders13.collections;
+package ders12.collections;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.ListIterator;
 
+/*****************************************************************
+ *  ATTENTION: the following methods are valid in ArrayList Class
+ *  since Java 21;
+ *  addFirst(), addLast(), 
+ *  getFirst(), getLast(),
+ *  removeFirst(), removeLast()
+ ****************************************************************/
 public class ArrayLists {
   public static void printList(String desc, ArrayList<Integer> list) {
     // Check the list if empty or not
